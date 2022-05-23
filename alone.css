@@ -1,0 +1,405 @@
+header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-color: white;
+    background-color: black;
+    color: white;
+}
+.mighty {
+    list-style-type: circle ;
+    outline-style: groove;
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;   
+}
+
+.bg {
+    list-style-type: none;
+    margin: 0 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    color: gray;
+}
+.ro {
+    line-height: 45px;
+    position: fixed;
+  bottom: 50px;
+  right: 150px;
+  width: 300px;
+  border: 7px solid pink;
+}
+
+
+.bt {
+    padding: 15px 30px;
+    background-color: brown;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.tweak {
+   padding: 25px 10px;
+   display: flex;
+}
+.section {
+    margin: 20px 20px;
+    display: flow-root;
+    justify-content:center;
+    text-align: center;
+    text-decoration: solid;
+}
+.pu {
+    height: 300px;
+    width: 300px;
+}
+footer {
+    background-color: black;
+    padding: 15px;
+}
+.asap {
+    list-style-type: none;
+}
+.fi {
+    display: flex;
+    justify-content: space-evenly;
+}
+.p {
+    font-size: 40px;
+    text-transform: capitalize;
+    text-rendering: geometricPrecision;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    visibility: unset;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 15%;
+    color: black;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16%;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16%;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16%;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  .gray-box {
+    position: absolute;
+    z-index: 3; /* gray box will be above both green and black box */
+    background: lightgray;
+    height: 50px;  
+    width: 20%;
+    left: 30px;
+    top: 65px;
+  }
+  
+  .green-box {
+    position: absolute;
+    z-index: 2; /* green box will be above black box */
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+  }
+#rest {
+    background: #4CAF50;
+    color: black;
+    padding: 15px;
+    width: 200px;
+    height: 65px;
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+.div1 {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+  }
+  
+  .div2 {
+    padding: 10px;
+    border: 3px solid red;
+  }
+  
+  .div3 {
+    float: left;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+  }
+  
+  .div4 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
+  }
+  .co{
+    border: 3px solid #4CAF50;
+    padding: 5px;
+  }
+  
+  .img1 {
+    float: right;
+  }
+  
+  .img2 {
+    float: right;
+  }
+  
+  /* .clearfix {
+    overflow: auto;
+    border: 3px solid #4CAF50;
+    padding: 5px;
+  } */
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container .box {
+    background-color: #f1f1f1;
+    width: 50%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: red;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .header, .footer {
+    background-color: grey;
+    color: white;
+    padding: 15px;
+  }
+  
+  .column {
+    float: left;
+    padding: 15px;
+  }
+  
+  /* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  } */
+  
+  .menu {
+    width: 25%;
+  }
+  
+  .content {
+    width: 75%;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #33b5e5;
+    color: #ffffff;
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+  }
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+.img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
+}
+.right {
+  position: absolute;
+  right: 100px;
+  width: 300px;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+/* div {
+  background-color: pink;
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+div:hover {
+  background-color: blue; */
+/* } */
+.tada {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+.still:hover .tada  {
+  display: block;
+}
+.input:chi{
+  outline: 0;
+}
+div.background {
+  background: url(./building.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bolder;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+[title~=blue] {
+  border: 5px solid yellow;
+}
+
+body{
+  background-color: black;
+}
