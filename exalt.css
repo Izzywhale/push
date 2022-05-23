@@ -1,0 +1,73 @@
+.header {
+    background-color: black;
+    margin-bottom: 0px;
+}
+
+li {
+    color: black;
+    background-color: white;
+    border: 1px solid navy;
+    margin: 20px 80px;
+    font-size: 20px;
+    padding: 5px 5px;
+    display: inline-block;
+}
+
+h2 {
+ color: green;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto  
+}
+
+a:link, a:visited {
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+}
+
+.content {
+    background-color:lightcyan;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+.footer {
+    background-color: green;
+    display: block;
+    text-align: center;
+}
+
+.first {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    /* border-width: 40px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+a.cool {
+    color: blue;
+    background-color: white;
+}
+
+a.cool:hover {
+    color: blueviolet;
+}
