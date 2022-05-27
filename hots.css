@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    /* background-color: black; */
+}
+
+img {
+    height: 70px;
+}
+
+#box {
+    border: 1px solid rgb(187, 187, 187);
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+#box:focus {
+    outline: 0;
+}
+
+.mark {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    display: block;
+    justify-content: space-evenly;
+    padding: 0px 25px;
+    font-family: cursive;
+}
+
+a:link, a:visited {
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+  }
+  
+  a:hover, a:active {
+    /* background-color: green; */
+    color: green;
+  }
+
+.hyena {
+    display: flex;
+    justify-content: center;
+}
+.peep {
+    border-top: 1px solid black;
+    padding: 10px 20px;
+}
+ul li {
+  color: darkblue;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  display: block;
+  padding: 10px 20px;
+}
+
+ul {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+h3 {
+    color: blue;
+}
+li.ty {
+    display: inline-block;
+    color: yellow;
+    font-size: 25px;
+    font-family: cursive;
+}
+li.di {
+    font-size: 12px;
+    font-family: cursive;
+    color: blue;
+}
+nav {
+    display: flex;
+    justify-content:center;
+    margin-top: 25px;
+}
+a.bra {
+    color: blue;
+    font-size: 25px;
+}
+li.ma {
+    display: inline-block;
+    color: red;
+    font-size: 25px;
+    font-family: cursive;
+}
+span.open {
+    color: green;
+}
+span.ma {
+    color: red;
+}
