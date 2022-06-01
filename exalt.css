@@ -1,13 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background-color: black;
-    margin-bottom: 0px;
+    padding: 10px 20px;
+}
+input[placeholder] {
+	color: red;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 li {
     color: black;
     background-color: white;
     border: 1px solid navy;
-    margin: 20px 80px;
     font-size: 20px;
     padding: 5px 5px;
     display: inline-block;
@@ -45,23 +58,26 @@ a:link, a:visited {
     font-size: 20px;
     display: block;
     text-align: center;
+    line-height: 1.5;
+}
+
+.content h2 {
+    margin: 0;
 }
 
 .footer {
     background-color: green;
     display: block;
     text-align: center;
+    padding: 10px 30px;
+
 }
 
 .first {
-    border: 1px solid black;
-    color: black;
-    background-color: white;
-    /* border-width: 40px; */
+    color: white;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-right: 500px;
-    margin-left: 500px;
+    font-size: 20px;
 }
 a.cool {
     color: blue;
